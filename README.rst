@@ -1,10 +1,11 @@
-This repository is used to house utilities and documents used by my time at
+B1;2403;0cThis repository is used to house utilities and documents used by my time at
 NESD.
 
 Emailing Large Groups of Important People
 =========================================
 
-I had to email long lists of advisors and most had titles (i.e., Dr.). 
+I had to email long lists of advisors and most had titles (i.e., Dr.). This
+utility helps you automate that process.
 
 Usage
 +++++
@@ -24,7 +25,7 @@ Final Report
 
 I didn't want to deal with formatting in Word or Google Docs, so I wrote the
 final report in Latex. I've included a Make file, so after you grab the files,
-you should be able to construct the pdf by simply typing ```make``` on the
+you should be able to construct the pdf by simply typing ``make`` on the
 command line. Feel free to visit [CTAN](http://www.ctan.org/) if you're missing
 any of the required packages.
 
