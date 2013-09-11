@@ -24,16 +24,16 @@
 
 \begin{doublespace}
 
+%%%%%% exec summary %%%%%%%%%%
+\newpage
+\section{Executive Summary}
+\input{summary}
+
 %%%%%% intro %%%%%%%%%%
 \newpage
 \setcounter{page}{1} 
 \section{Introduction}
 \input{intro}
-
-%%%%%% exec summary %%%%%%%%%%
-\newpage
-\section{Executive Summary}
-\input{summary}
 
 %%%%%% schedule %%%%%%%%%%
 \newpage
@@ -64,7 +64,7 @@
 \input{budget}
 
 %%%%%% Policy Statement %%%%%%%%%%
-\includepdf[pages=1, pagecommand=\section{Policy Statement}]{policy_statement.pdf}
+\includepdf[pages=1, pagecommand=\section{Policy Statement}\label{sec:statement}]{policy_statement.pdf}
 \includepdf[pages=2-, pagecommand={}]{policy_statement.pdf}
 
 \end{doublespace}
